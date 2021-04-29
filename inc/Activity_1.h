@@ -11,11 +11,9 @@
  *
  */
 
-
 /**
  * Macro Definitions
  */
-
 #define F_CPU 16000000UL 	   /**< Clock Frequency of MCU is 16 MHz */
 #define LED_PORT (PORTD)           /**< LED Port Number */
 #define LED_PIN  (PORTD2)         /**< LED Pin number  */
@@ -27,7 +25,6 @@
  */
 #include <util/delay.h>
 #include <avr/io.h>
-
 
 /**
  * Function Definitions
@@ -55,6 +52,6 @@ void LED_OFF();
  * @brief This Function to Activity 1 to Turn ON LED if switches for Button sensor and Heator sensor are pressed
  *
  */
-int activity1_LED(void);
+int LED(void);
 
 #endif /* __ACTIVITY_1_H__ */
