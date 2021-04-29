@@ -1,5 +1,5 @@
 /**
- * @file Activity_1.h
+ * @file Activity_1.c
  * @author Vinayak K(vinukaralatti@gmail.com)
  * @brief In this we are defining pins and ports to make LED ON or OFF
  * @version 0.1
