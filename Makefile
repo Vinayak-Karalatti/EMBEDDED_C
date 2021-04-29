@@ -1,4 +1,4 @@
-PROJ_NAME = SeatHeatApp
+PROJ_NAME = activities_main
 
 BUILD_DIR = Build
 
