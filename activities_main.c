@@ -24,7 +24,7 @@ int main(void)
         if(LED()==1) //Check if both the switches are pressed
         {
             LED_ON();          //Turn LED ON
-            temp=GetADC();     //To Get the ADC value
+            tmp=GetADC();     //To Get the ADC value
             PWM(tmp);         //this is to PWM output based on temperature
 		        USARTWrite(tmp); //this is for Serial monitor to display Temperature
         }
