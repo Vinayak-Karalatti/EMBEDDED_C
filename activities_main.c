@@ -17,7 +17,7 @@
 
 int main(void)
 {
-    uint16_t temp;
+    uint16_t tmp;
     
     while(1)
     {
@@ -25,15 +25,14 @@ int main(void)
         {
             LED_ON();          //Turn LED ON
             temp=GetADC();     //To Get the ADC value
-            PWM(temp);         //this is to PWM output based on temperature
-		        USARTWrite(temp); //this is for Serial monitor to display Temperature
+            PWM(tmp);         //this is to PWM output based on temperature
+		        USARTWrite(tmp); //this is for Serial monitor to display Temperature
         }
         else  // other cases
         {
             LED_OFF();     //Turn LED OFF
-		        _delay_ms(200);
+	    _delay_ms(200);
         }
-
     }
     return 0;
 }
